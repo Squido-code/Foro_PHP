@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d828ab25-f15e-4916-b4b8-ed79257fc697" name="Default Changelist" comment="" />
+    <list default="true" id="d828ab25-f15e-4916-b4b8-ed79257fc697" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Model/entradaTextoUsuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Style/formulario.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pruebas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/DAOs/factory_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DAOs/factory_DAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/DAOs/hilos_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DAOs/hilos_DAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/DAOs/respuestas_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DAOs/respuestas_DAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/DAOs/temas_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DAOs/temas_DAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/DAOs/usuarios_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DAOs/usuarios_DAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/clase_hilos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/clase_hilos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/clase_respuestas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/clase_respuestas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/clase_usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/clase_usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/tabla_temas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/tabla_temas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/View/Style/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/sections/Playstation.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/sections/Playstation.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpDebugGeneral" xdebug_show_addresses="true" />
   <component name="PhpServers">
     <servers>
@@ -28,6 +48,7 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" port="80" />
   <component name="ProjectId" id="1lBatUujM50AXEWNz27JBQ6eVxd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Model" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -49,15 +70,15 @@
       <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\Model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smauu\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\View\sections" />
       <recent name="C:\Users\smauu\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\Resources" />
       <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\View\Style" />
       <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\Model" />
       <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\View\sections" />
-      <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\View\common" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.clase_usuario.php">
-    <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Index.php">
+  <component name="RunManager" selected="PHP Web Page.debug">
+    <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/View/sections/Index.php">
       <method v="2" />
     </configuration>
     <configuration name="Playstation_respuesta.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/View/sections/Playstation_respuesta.php">
@@ -120,10 +141,53 @@
       <workItem from="1607449009889" duration="249000" />
       <workItem from="1607618489876" duration="613000" />
       <workItem from="1608305985919" duration="3524000" />
+      <workItem from="1608461378811" duration="13607000" />
     </task>
+    <task id="LOCAL-00001" summary="Funcionamiento sin sesiones">
+      <created>1608461506934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608461506934</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Funcionamiento sin sesiones">
+      <created>1608461714690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608461714690</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Inicio sesion y log out arreglados">
+      <created>1608464633635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608464633635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Funcionamiento sin sesiones" />
+    <MESSAGE value="Inicio sesion y log out arreglados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio sesion y log out arreglados" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -34,4 +34,18 @@ class Hilos_DAO extends Factory_DAO
         }
         return $stmt->rowCount();
     }
+    public function insertarHilo($idTema,$userid,$titulo){
+        $stmt=null;
+        try {
+            $stmt = $this->dbh->prepare("INSERT INTO hilo (id_tema,id_usuario, titulo_hilo)
+                                        VALUES (?,?,?);");
+            $stmt->bindValue(1,$idTema);
+            $stmt->bindValue(2,$userid);
+            $stmt->bindValue(3,$titulo);
+            $stmt->execute();
+            return true;
+        }catch (PDOException $e){
+            echo $e->getMessage();
+        }
+    }
 }

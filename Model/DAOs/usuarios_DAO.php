@@ -49,6 +49,15 @@ class Usuarios_DAO extends Factory_DAO
         }
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+    public function conseguirId($username){
+        $stmt=null;
+        try {
+            $stmt = $this->dbh->prepare("SELECT id_usuario FROM usuario WHERE nick = ?;");
+            $stmt->bindValue(1,$username);
+            $stmt->execute();
+        }catch (PDOException $e){
+            echo $e->getMessage();
+        }
+        return $stmt->fetch();
+    }
 }
-//$ejemplo = new Usuarios_DAO();
-//$ejemplo->verificacion_usuario();

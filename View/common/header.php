@@ -14,17 +14,23 @@ $sesion->iniciar_sesion();
 <div>
     <img id="titulo_web" src="/Actividad_aprendizaje/Resources/Titulo_logo.png" alt="Título web">
 </div>
-<div  class="menu">
-<ul>
-    <li><a href="/Actividad_aprendizaje/View/sections/index.php">Inicio</a></li>
-    <li><a href="/Actividad_aprendizaje/View/login/login.php">login</a></li>
-    <li><a href="/Actividad_aprendizaje/View/login/nuevo_usuario.php">registro</a></li>
 <?php
-     if (isset($_SESSION) && isset($_SESSION['nick'])){
-
-     echo    '<li><a href="/Actividad_aprendizaje/view/sections/index.php"'.$sesion->borrar_sesion().'>log out </a></li>';
-     }
-?>
+//echo'<div  class="menu">';
+//echo'<ul>';
+//    echo'<li><a href="/Actividad_aprendizaje/View/sections/index.php">Inicio</a></li>';
+//
+//    if (isset($_SESSION) && isset($_SESSION['nick'])){
+//        echo'<li id="lista"><a href="/Actividad_aprendizaje/view/sections/index.php"'.$sesion->borrar_sesion().'>log out </a></li>';
+//    }else{
+//        echo'<li ><a href="/Actividad_aprendizaje/View/login/login.php">login</a></li>';
+//        echo'<li ><a href="/Actividad_aprendizaje/View/login/nuevo_usuario.php">registro</a></li>';
+//    }
+//    ?>
+<div  class="menu">
+    <ul>
+        <li><a href="/Actividad_aprendizaje/View/sections/index.php">Inicio</a></li>
+        <li ><a href="/Actividad_aprendizaje/View/login/login.php">login</a></li>
+        <li ><a href="/Actividad_aprendizaje/View/login/nuevo_usuario.php">registro</a></li>
 </ul>
 <br>
 </div>

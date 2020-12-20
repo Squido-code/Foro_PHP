@@ -43,5 +43,13 @@ class Hilos
         echo"</table>";
         echo "</div>";
     }
+    public function insertarHilo($idtema,$iduser,$titulo){
+
+        $isRegistrado=$this->hilos_dao->insertarHilo($idtema,$iduser,$titulo);
+    if ($isRegistrado){
+        //TODO redirigir a la pagina del hilo
+        header("Refresh:0");
+            }
+        }
 
 }

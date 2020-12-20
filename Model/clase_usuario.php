@@ -89,8 +89,8 @@ class Clase_usuario
     {
         $this->contrasena = $contrasena;
     }
-
+    public function usuarioId($nick){
+        $usuario = $this->usuariosDAO->conseguirId($nick);
+        return $usuario['id_usuario'];
+    }
 }
-
-$ejemplo = new clase_usuario("prueba1","1234","ole@gmail.com");
-$ejemplo->verificar("1234","1234");

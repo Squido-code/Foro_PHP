@@ -6,8 +6,8 @@ class Factory_DAO
 
 
 
-private $user='guillermo';
-private $password='1234';
+private $user='root';
+private $password='';
 
 protected $dbh= null;
     /**

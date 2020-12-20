@@ -12,7 +12,7 @@ echo "<table>";
 foreach ($listaTemas as $tema){
     //url personalizada para cada seccion
     //no pasamos variable para que te puedas meter en cada seccion directamente
-    $url = "href=View/sections/".$tema['titulo'].".php";
+    $url = "href=/Actividad_aprendizaje/View/sections/".$tema['titulo'].".php";
     //pintamos la tabla con la lista obtenida
 
     echo '<tr>';
