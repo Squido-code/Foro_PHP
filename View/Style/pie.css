@@ -1,0 +1,17 @@
+body{
+    background-color: #7cc6ff;
+}
+#pie{
+
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    background-color: #005555;
+    text-align: center;
+
+}

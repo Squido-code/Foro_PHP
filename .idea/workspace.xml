@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d828ab25-f15e-4916-b4b8-ed79257fc697" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_show_addresses="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="b2882b68-0dce-4007-b56f-773f36949a5a" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\xampp\htdocs" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:80" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" port="80" />
+  <component name="ProjectId" id="1lBatUujM50AXEWNz27JBQ6eVxd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Model" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\smauu\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\Model" />
+      <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\View\login" />
+      <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\Model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smauu\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\Resources" />
+      <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\View\Style" />
+      <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\Model" />
+      <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\View\sections" />
+      <recent name="C:\Users\squid\Dropbox\Segundo año\Desarrollo de interfaces\Actividad_aprendizaje\View\common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.clase_usuario.php">
+    <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Playstation_respuesta.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/View/sections/Playstation_respuesta.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="clase_usuario.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Model/clase_usuario.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/View/login/login.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="usuarios_DAO.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Model/DAOs/usuarios_DAO.php">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="localhost" start_url="/Actividad_aprendizaje">
+      <method v="2" />
+    </configuration>
+    <configuration name="debug" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="localhost" start_url="/Actividad_aprendizaje">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Script.Playstation_respuesta.php" />
+      <item itemvalue="PHP Script.login.php" />
+      <item itemvalue="PHP Script.usuarios_DAO.php" />
+      <item itemvalue="PHP Script.Index.php" />
+      <item itemvalue="PHP Script.clase_usuario.php" />
+      <item itemvalue="PHP Web Page.debug" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.clase_usuario.php" />
+        <item itemvalue="PHP Script.Index.php" />
+        <item itemvalue="PHP Script.login.php" />
+        <item itemvalue="PHP Script.usuarios_DAO.php" />
+        <item itemvalue="PHP Script.Playstation_respuesta.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d828ab25-f15e-4916-b4b8-ed79257fc697" name="Default Changelist" comment="" />
+      <created>1607073152919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607073152919</updated>
+      <workItem from="1607073153963" duration="559000" />
+      <workItem from="1607074277241" duration="599000" />
+      <workItem from="1607095869290" duration="14377000" />
+      <workItem from="1607160809466" duration="6219000" />
+      <workItem from="1607173682217" duration="5375000" />
+      <workItem from="1607186429775" duration="11065000" />
+      <workItem from="1607248480597" duration="24755000" />
+      <workItem from="1607335707877" duration="10272000" />
+      <workItem from="1607359672802" duration="55000" />
+      <workItem from="1607363987992" duration="3332000" />
+      <workItem from="1607420905123" duration="2954000" />
+      <workItem from="1607424777921" duration="12144000" />
+      <workItem from="1607440316166" duration="1031000" />
+      <workItem from="1607449009889" duration="249000" />
+      <workItem from="1607618489876" duration="613000" />
+      <workItem from="1608305985919" duration="3524000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
