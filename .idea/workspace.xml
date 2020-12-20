@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d828ab25-f15e-4916-b4b8-ed79257fc697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/login/nuevo_usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/login/nuevo_usuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/sections/Playstation.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/sections/Playstation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/base de datos sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/base de datos sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Style/formulario.css" beforeDir="false" afterPath="$PROJECT_DIR$/View/Style/formulario.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/sections/Dreamcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/sections/Dreamcast.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/sections/Dreamcast_respuesta.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/sections/Dreamcast_respuesta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pruebas.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +134,7 @@
       <workItem from="1608461378811" duration="15714000" />
       <workItem from="1608481430556" duration="1049000" />
       <workItem from="1608482573407" duration="265000" />
+      <workItem from="1608483565188" duration="1354000" />
     </task>
     <task id="LOCAL-00001" summary="Funcionamiento sin sesiones">
       <created>1608461506934</created>
@@ -167,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608478155856</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="entrada de respuestas funcional">
+      <created>1608483775447</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608483775447</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +201,8 @@
     <MESSAGE value="Inicio sesion y log out arreglados" />
     <MESSAGE value="creacion de titulos de hilos completados" />
     <MESSAGE value="creacion de respuestas completada con fallo a ver con debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de respuestas completada con fallo a ver con debug" />
+    <MESSAGE value="entrada de respuestas funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="entrada de respuestas funcional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
