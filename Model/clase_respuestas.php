@@ -39,9 +39,9 @@ class Respuestas
         echo "</div>";
     }
     public function insertarRespuesta($idUser,$contenido){
-        $isRegistrado=$this->respuestas_dao->insertar($this->idHilo,$idUser,$contenido);
+        $isRegistrado=$this->respuestas_dao->insertar($this->id,$idUser,$contenido);
         if ($isRegistrado){
-            //header("Refresh:0");
+            header("Refresh:0");
         }
     }
 }

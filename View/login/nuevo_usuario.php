@@ -25,7 +25,7 @@ include('../common/header.php');
                     $usuario->setContrasena($passCifrada);
                     if ($usuario->comprobar_usuario() !== false) {
                         $usuario->nuevoUsuario();
-                        header("Location:/Actividad_aprendizaje/View/login/login.php");
+                        header("Location:/Actividad_aprendizaje/view/sections/index.php",true);
                     }
                 }
                 ?>

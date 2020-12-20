@@ -1,8 +1,8 @@
 <?php
 $titulo = "Playstation";
 include_once('../common/header.php');
-include_once('../../model/clase_hilos.php');
-include_once('../../model/entradaTextoUsuario.php');
+require_once('../../model/clase_hilos.php');
+require_once('../../model/entradaTextoUsuario.php');
 
 //escribimos directamente el tema para poder entrar en playstation directamente
 $hilo = new Hilos("Playstation");
