@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d828ab25-f15e-4916-b4b8-ed79257fc697" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Model/entradaTextoUsuario.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Style/formulario.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pruebas.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/DAOs/factory_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DAOs/factory_DAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/DAOs/hilos_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DAOs/hilos_DAO.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/DAOs/respuestas_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DAOs/respuestas_DAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/DAOs/temas_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DAOs/temas_DAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/DAOs/usuarios_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DAOs/usuarios_DAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/clase_hilos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/clase_hilos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/clase_respuestas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/clase_respuestas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/clase_usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/clase_usuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/tabla_temas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/tabla_temas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/View/Style/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/entradaTextoUsuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/entradaTextoUsuario.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/sections/Playstation.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/sections/Playstation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/sections/Playstation_respuesta.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/sections/Playstation_respuesta.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +131,7 @@
       <workItem from="1607449009889" duration="249000" />
       <workItem from="1607618489876" duration="613000" />
       <workItem from="1608305985919" duration="3524000" />
-      <workItem from="1608461378811" duration="13607000" />
+      <workItem from="1608461378811" duration="15436000" />
     </task>
     <task id="LOCAL-00001" summary="Funcionamiento sin sesiones">
       <created>1608461506934</created>
@@ -164,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608464633635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creacion de titulos de hilos completados">
+      <created>1608476307313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608476307314</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +181,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Funcionamiento sin sesiones" />
     <MESSAGE value="Inicio sesion y log out arreglados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio sesion y log out arreglados" />
+    <MESSAGE value="creacion de titulos de hilos completados" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de titulos de hilos completados" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

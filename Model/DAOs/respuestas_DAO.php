@@ -23,7 +23,7 @@ class Respuestas_DAO extends Factory_DAO
         }
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-    public function insertarRespuesta($idHilo,$userid,$contenido){
+    public function insertar($idHilo,$userid,$contenido){
         $stmt=null;
         try {
             $stmt = $this->dbh->prepare("INSERT INTO respuestas (id_hilo,id_usuario,contenido)

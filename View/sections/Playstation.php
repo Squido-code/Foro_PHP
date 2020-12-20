@@ -13,9 +13,7 @@ if (isset($_SESSION) && isset($_SESSION['nick'])){
     echo'<form id="form" action="" method="post">';
     echo'<p>Título</p>';
     echo'<input type="text" name="tema"/><br/>';
-    echo'<p>Contenido</p>';
-    echo'<textarea id="w3review" name="contenido" rows="4" cols="50"></textarea><br/>';
-    echo'<p><input type="submit" name="submit" value="Nuevo tema"/></p>';
+    echo '<p><input type="submit" name="submit" value="Nuevo Tema"/></p>';
     echo'</form>';
     $nuevoHilo->entradaHilo($titulo);
 }

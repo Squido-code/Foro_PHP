@@ -38,11 +38,10 @@ class Respuestas
         echo"</table>";
         echo "</div>";
     }
-    public function insertarRespuesta($idHilo,$idUser,$contenido){
-        //$isRegistrado=$this->hilos_dao->insertarHilo($idtema,$iduser,$titulo);
-        $isRegistrado=$this->$this->respuestas_dao->insertarRespuesta($idHilo,$idUser,$contenido);
+    public function insertarRespuesta($idUser,$contenido){
+        $isRegistrado=$this->respuestas_dao->insertar($this->idHilo,$idUser,$contenido);
         if ($isRegistrado){
-            header("Refresh:0");
+            //header("Refresh:0");
         }
     }
 }
