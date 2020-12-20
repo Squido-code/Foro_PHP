@@ -1,7 +1,7 @@
 <?PHP
-//require_once ('../../model/clase_sesion.php');
-//$sesion = new Sesion();
-//$sesion->iniciar_sesion();
+require_once ('../../Model/clase_sesion.php');
+$sesion = new Sesion();
+$sesion->iniciar_sesion();
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -16,17 +16,15 @@
 </div>
 <div  class="menu">
 <ul>
-    <li><a href="/Actividad_aprendizaje/index.php">Inicio</a></li>
+    <li><a href="/Actividad_aprendizaje/View/sections/index.php">Inicio</a></li>
     <li><a href="/Actividad_aprendizaje/View/login/login.php">login</a></li>
     <li><a href="/Actividad_aprendizaje/View/login/nuevo_usuario.php">registro</a></li>
 <?php
-//  require_once ('../../model/clase_sesion.php');
-//     $sesion = new Sesion();
-//     if (isset($_SESSION) && isset($_SESSION['nick'])){
-//         $sesion->borrar_sesion();
-//     echo    '<li><a href="/Actividad_aprendizaje/index.php">log out</a></li>';
-//     }
-//     ?>
+     if (isset($_SESSION) && isset($_SESSION['nick'])){
+
+     echo    '<li><a href="/Actividad_aprendizaje/view/sections/index.php"'.$sesion->borrar_sesion().'>log out </a></li>';
+     }
+?>
 </ul>
 <br>
 </div>

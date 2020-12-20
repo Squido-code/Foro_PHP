@@ -17,15 +17,13 @@ include('../common/header.php');
             <?php
             require_once('../../model/clase_sesion.php');
             require_once('../../model/clase_usuario.php');
+
             if (isset($_POST['submit'])) {
                 $usuario = new Clase_usuario($_POST['nick'], $_POST['password'], null);
                 //Verificamos que el nombre de usuario y la contraseña son correctos y, en ese caso, creamos la sesión y redirigimos
                 if ($usuario->verificar($_POST['nick'], $_POST['password'])) {
-                    $sesion = new Sesion();
-
                     $sesion->set('nick', ($_POST['nick']));
-                    echo "<div id='msg'>Sesion iniciada</div>";
-                    header("Location:/Actividad_aprendizaje/View/common/header.php",true);
+                    header("Location:/Actividad_aprendizaje/view/sections/index.php",true);
                 } else {
                     echo "<div id='msg'>Nombre de usuario o contraseña incorrectos.</div>";
                 }

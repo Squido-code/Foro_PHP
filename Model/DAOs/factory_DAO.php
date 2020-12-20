@@ -1,7 +1,5 @@
 <?php
 
-//$prueba = new factory_DAO(null,null);
-//$prueba->conectar();
 class Factory_DAO
 {
 /*definimos como constante la conexion ala base de datos ya que esta no debe ser manipulada*/
